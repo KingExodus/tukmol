@@ -1,5 +1,6 @@
 discord.py
 discord-ui
+--upgrade discord.py
 python-dotenv
 disnake
 discord-py-slash-command

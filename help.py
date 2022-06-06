@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord import Embed, Ui
 
 PRIMARY_COLOR = discord.Color.red()
 SECONDARY_COLOR = discord.Color.darker_grey()

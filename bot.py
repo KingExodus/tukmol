@@ -44,6 +44,6 @@ bot.load_extension("utility")
 bot.load_extension("welcome")
 
 #bot.load_extension("tictactoe")
-bot.load_extension("ephemeral")
+#bot.load_extension("ephemeral")
 bot.load_extension("higherlower")
 bot.run(TOKEN)

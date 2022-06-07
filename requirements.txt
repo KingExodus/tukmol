@@ -1,6 +1,7 @@
 discord.py
 discord-ui
---upgrade discord.py
+discord.py[voice]
+ffmpeg-python
 python-dotenv
 disnake
 discord-py-slash-command
@@ -8,10 +9,8 @@ discord-components
 requests
 asyncio
 pynacl
-discord.py[voice]
 typing
 utils
 googletrans
 youtube_dl
 Pillow
-youtube_dl

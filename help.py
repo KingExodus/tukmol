@@ -23,7 +23,7 @@ class Helps(commands.Cog):
         embed.add_field(name="\u200b", value="\u200b", inline=True)
         embed.add_field(name = "Info", value = "` help ` ` avatar ` \n ` userinfo ` \n ` invite  ` ", inline=True)        
         embed.add_field(name = "Music", value = "` play ` ` pause ` ` resume ` ` stop ` ` now | current | playing ` \n ` queue ` ` shuffle ` ` skip ` ` remove ` ` loop ` ` volume ` \n ` summon ` ` join ` ` leave | disconnect `", inline=False)
-        embed.add_field(name = "Utility", value = "` calcu ` ` translate ` ` tag ` \n ` poll `", inline=True)
+        #embed.add_field(name = "Utility", value = "` calcu ` ` translate ` ` tag ` \n ` poll `", inline=True)
         embed.add_field(name="\u200b", value="\u200b", inline=True)
         #embed.add_field(name = "Crypto", value = "` axiestats ` ` price ` ", inline=True)
         await ctx.send(embed=embed)

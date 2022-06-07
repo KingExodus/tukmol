@@ -31,7 +31,7 @@ class Heist(commands.Cog):
         self.botMember = self.bot.user
 
         embed = discord.Embed(description = app.description, color = PRIMARY_COLOR)
-        embed.set_author(name = "{0} Information".format(app.name), icon_url = self.botMember.avatar)
+        embed.set_author(name = "{0} Information".format(self.botMember.name), icon_url = self.botMember.avatar)
         embed.add_field(name = "Username", value = self.botMember, inline = True)
         embed.add_field(name = "Status", value = "✅ Online", inline = True)
         embed.add_field(name = "Activity", value = self.bot.activity, inline = True )
